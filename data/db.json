@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "id1",
+      "name": "fun",
+      "display_name": "Fun Stuff",
+      "description": "New Description"
+    },
+    {
+      "id": "id2",
+      "name": "required",
+      "display_name": "Necessary",
+      "description": "Necessary Stuff"
+    }
+  ],
+  "products": [
+    {
+      "category": "fun",
+      "name": "puzzle",
+      "display_name": "Puzzle",
+      "description": "Extra fun for those who like patterns",
+      "id": "F1"
+    },
+    {
+      "id": "F2",
+      "category": "fun",
+      "name": "game",
+      "display_name": "Board Game",
+      "description": "A great way to while away the hours"
+    },
+    {
+      "id": "R1",
+      "category": "required",
+      "name": "chores",
+      "display_name": "Chores",
+      "description": "Things that need to get done"
+    },
+    {
+      "id": "R2",
+      "category": "required",
+      "name": "sustenance",
+      "display_name": "Eat Meals",
+      "description": "Feed your body"
+    }
+  ]
+}
