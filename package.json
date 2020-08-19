@@ -1,0 +1,34 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "## Project: HTTP and REST",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"  
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniferchinzi-401-advanced-javascript/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniferchinzi-401-advanced-javascript/api-server/issues"
+  },
+  "homepage": "https://github.com/jenniferchinzi-401-advanced-javascript/api-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.0",
+    "supertest": "^4.0.2"
+  }
+}
