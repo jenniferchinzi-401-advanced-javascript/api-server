@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/jenniferchinzi-401-advanced-javascript/api-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jest": "^26.4.0",
